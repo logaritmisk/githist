@@ -2,7 +2,6 @@
 
 require 'octokit'
 require 'colorize'
-require 'awesome_print'
 
 
 Octokit.configure do |config|
