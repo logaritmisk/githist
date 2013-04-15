@@ -29,7 +29,7 @@ date = nil
       puts " #{created.strftime('%H:%M:%S')} - #{event.repo.name}".cyan
 
       event.payload.commits.each do |commit|
-        puts "  - #{commit.message}"
+        puts "  - #{commit.message} <#{commit.author.name}>"
       end
 
       puts
